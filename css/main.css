@@ -9,3 +9,7 @@ body {
     aspect-ratio: 2;
     object-fit:cover;
 }
+.logo-img {
+    width: 100%;
+    max-width: 150px;
+}
