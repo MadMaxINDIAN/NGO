@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #caf7e3;
+    background-color: #ffe894;
 }
 .beach_please_logo {
     max-height: 100px;
@@ -19,18 +19,53 @@ body {
   color: #fff;
   font-size: 40px;
 }
-.about{
-  /* width: 60%; */
-  
+/* .about{
+  width: 60%;
   margin: 80px auto 80px;
-  text-align: justify;
+  text-align: left;
   line-height: 2;
+} */
+
+.about {
+  margin: auto;
+  text-align:justify;
+  max-width: 1200px;
   justify-content: center;
 }
+
+@media only screen and (max-width: 1400px) {
+  .about {
+    max-width: 1160px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about {
+    max-width: 924px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .about {
+    max-width: 708px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about {
+    max-width: 516px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .about {
+    max-width: 456px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .about {
+    max-width: 90%;
+  }
+}
 .dadar-beach{
-  width: 45%;
-  float: right;
-  padding-left: 40px;
+  width: 100%;
+  margin: auto;
 }
 .about-heading{
   color: black;
