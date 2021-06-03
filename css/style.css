@@ -64,6 +64,9 @@ Table of Content:
 46/ modal part
 47/ footer section
 =====================================================================*/
+body {
+  overflow-x: hidden
+}
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap");
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -2936,7 +2939,7 @@ button:focus {
   margin: 0 20px;
   text-transform: capitalize;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   letter-spacing: auto;
   font-weight: 500;
   position: relative;
@@ -3040,7 +3043,7 @@ button:focus {
   color: #e07a5e;
 }
 .header_part.classic_header .navbar .dropdown-menu .dropdown-item:focus, .header_part.classic_header .navbar .dropdown-menu .dropdown-item:hover {
-  background-color: transparent;
+  background-color: #fad130;
 }
 .header_part.classic_header .navbar .dropdown:hover .nav-link {
   color: #f2cc8e;
