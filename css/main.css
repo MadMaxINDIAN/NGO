@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ffe894;
+    background-color: #e8e8e8;
 }
 .beach_please_logo {
     max-height: 100px;
@@ -13,7 +13,8 @@ body {
 }
 .logo-img {
     width: 100%;
-    max-width: 150px;
+    max-width: 210px;
+    padding: 10px 0px;
 }
 .caption{
   color: #fff;
@@ -72,4 +73,8 @@ body {
   font-weight:600;
   font-size: 2.5rem;
   text-align: center;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
