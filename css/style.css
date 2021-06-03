@@ -1304,14 +1304,14 @@ button:focus,
   background-color: #82b29a;
 }
 .cu_btn.btn_3 {
-  background-color: #82b29a;
-  border: 2px solid #82b29a;
-  color: #fff;
+  background-color: #ff8800;
+  border: 2px solid #ff8800;
+  color: #000;
 }
 .cu_btn.btn_3:hover {
   background-color: transparent;
-  border: 2px solid #82b29a;
-  color: #82b29a;
+  border: 2px solid #ff8800;
+  color: #ff8800;
 }
 .cu_btn.btn_4 {
   background-color: #111;
@@ -3043,7 +3043,7 @@ button:focus {
   color: #e07a5e;
 }
 .header_part.classic_header .navbar .dropdown-menu .dropdown-item:focus, .header_part.classic_header .navbar .dropdown-menu .dropdown-item:hover {
-  background-color: #fad130;
+  background-color: transparent;
 }
 .header_part.classic_header .navbar .dropdown:hover .nav-link {
   color: #f2cc8e;
